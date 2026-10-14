@@ -1,0 +1,19 @@
+[project]
+name = "the-martian-video-log"
+version = "1.0.0"
+description = "Mission-style video log recorder with burned-in retro HUD and Gemini Live transcription/summaries."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pySide6>=6.7",
+    "opencv-python>=4.10",
+    "sounddevice>=0.5",
+    "numpy>=1.26",
+    "pillow>=10.0",
+    "psutil>=5.9",
+    "imageio-ffmpeg>=0.5",
+    "google-genai>=2.30",  # code depends on the 2.30.x SDK surface
+]
+
+[tool.uv]
+package = false  # application, not an installable library - no build step

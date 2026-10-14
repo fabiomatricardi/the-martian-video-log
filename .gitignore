@@ -1,0 +1,16 @@
+# environment / caches
+.venv/
+__pycache__/
+*.pyc
+
+# generated data
+tmp/
+logs/
+data/
+tests/out/
+session-*.*
+config.json
+WIP.md
+
+# secrets
+.env
