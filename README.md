@@ -6,6 +6,12 @@ transcript ticker) plus CRT scanlines **directly into the saved MP4** — the
 preview is exactly what you get. Every log entry is tracked in SQLite and
 automatically transcribed and summarized with the Gemini Live API.
 
+---
+
+<img src="https://github.com/fabiomatricardi/the-martian-video-log/blob/main/media.jpg" width=900>
+
+---
+
 <br>
 
 | Recording (mission_white) | Recording (green_phosphor) |
